@@ -2,10 +2,99 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+# =========================
+# 聚合 M3U（推荐）
+# =========================
+https://iptv.yang-1989.eu.org/m3u/Gather.m3u
+https://tv.iill.top/m3u/Gather
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u
+https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/iptv.m3u
+https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/webview.m3u
+https://raw.githubusercontent.com/rad168/iptv/main/live.m3u
+https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
+https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u
+https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.m3u
+https://romaxa55.github.io/world_ip_tv/output/index.m3u
+https://cdn.qd.je/live.m3u
+https://garyshare.sharewithyou.dpdns.org/garyshare_202607.m3u
 
+# =========================
+# 体育频道
+# =========================
+https://iptv.yang-1989.eu.org/m3u/Sport.m3u
 
+# =========================
+# 中国频道（iptv-org）
+# =========================
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 
+# =========================
+# IPv4 / IPv6 自动更新
+# =========================
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
+https://live.zbds.top/tv/iptv4.txt
+https://live.zbds.top/tv/iptv6.txt
 
+# =========================
+# CCTV / 卫视频道
+# =========================
+https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
+https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
+
+# =========================
+# 综合 TXT 源
+# =========================
+https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
+https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
+https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
+https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
+https://raw.githubusercontent.com/xiongjian83/TvBox/refs/heads/main/live.txt
+https://raw.githubusercontent.com/250992941/iptv/refs/heads/main/st1.txt
+https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/IPTV.txt
+
+# =========================
+# 地区 / 北京频道
+# =========================
+https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/BRTV.m3u
+
+# =========================
+# 自动更新频道
+# =========================
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8
+
+# =========================
+# 酒店 IPTV
+# =========================
+https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
+
+# =========================
+# JS / TVBox
+# =========================
+https://gitee.com/mytv-android/mytvJS/raw/main/js.gitee.m3u
+https://gitee.com/liliang74120/cxkj6863/raw/master/mySD
+
+# =========================
+# 其他源
+# =========================
+http://wx.thego.cn/df.txt
+http://wx.thego.cn/backup.m3u
+https://www.cloudplains.cn/result.txt
+http://49.0.205.239:8866/Sub?type=txt
+http://8.138.7.223/v12.txt
+http://82.156.243.185:33389/fwc.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
